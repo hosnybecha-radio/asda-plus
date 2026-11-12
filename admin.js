@@ -1,0 +1,2 @@
+// لوحة الإدارة واجهة أولية. فعّل المصادقة وسياسات الصلاحيات في Supabase قبل الاستخدام.
+document.getElementById('loginForm')?.addEventListener('submit',e=>{e.preventDefault();document.getElementById('adminStatus').textContent='يلزم إعداد Supabase وتفعيل المصادقة أولاً.';});

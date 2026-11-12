@@ -1,0 +1,2 @@
+// نموذج المساهمات يحتاج إلى ربط Supabase قبل استقبال الإرسال فعلياً.
+document.getElementById('contributionForm')?.addEventListener('submit',e=>{e.preventDefault();document.getElementById('status').textContent='لم يتم تفعيل الإرسال بعد. أكمل إعداد Supabase أولاً.';});

@@ -1,0 +1,2 @@
+// ربط عرض المقالات المنشورة بقاعدة البيانات يُستكمل بعد إعداد Supabase.
+document.addEventListener('DOMContentLoaded',()=>{const el=document.getElementById('articles');if(el) el.innerHTML='<p>سيتم عرض المقالات المنشورة هنا بعد إعداد قاعدة البيانات.</p>';});
